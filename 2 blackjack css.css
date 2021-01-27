@@ -1,0 +1,82 @@
+* {
+    font-family: Helvetica, Arial, serif;
+    background-color: SeaGreen;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#CardArea {
+    font-size: 50px;
+    background-color: rgb(7, 95, 7);
+    border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+button {
+    color: white;
+    background-color: rgb(7, 95, 7);
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#buttonArea {
+  text-align: center;
+}
+
+.cardBlack {
+  border: 8px double black;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 100px;
+  height: 150px;
+  padding: 5px;
+}
+
+.cardRed {
+  border: 8px double black;
+  color: red;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 100px;
+  height: 150px;
+  padding: 5px;
+}
+
+.cardSpace {
+  width: 100px;
+  height: 150px;
+  background-color:  rgb(7, 95, 7);
+}
+
+.greenfont {
+  color: SeaGreen;
+}
+
+.resultFont {
+  color: white;
+}
+

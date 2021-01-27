@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href = "./2 blackjack css.css" type = "text/css" rel = "stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title> Rosie's BlackJack Project (2)</title>
+
+</head>
+
+<body>
+
+  <h1> &#9829 &#9830 BlackJack! &#9827 &#9824</h1>
+  
+  <div id = "ok"></div>
+<!-- dealer  -->
+  <h2 class = "italic"> Dealer's cards: </h2>
+  <div class = "container" id = "CardArea"> 
+    <div  class="cardSpace" id = "dealerCard1">
+        </div>
+    <div  class="cardSpace" id = "dealerCard2">
+        </div>
+    <div  class="cardSpace" id = "dealerCard3">
+        </div>
+    <div  class="cardSpace" id = "dealerCard4">
+        </div>
+    <div  class="cardSpace" id = "dealerCard5">
+        </div>
+  </div>
+
+  <h4 id = "dealerTotal"> Score: 0</h4>
+
+  <!-- you  -->
+  <h2 class = "italic" > Your cards: </h2>
+    <div class = "container" id = "CardArea"> 
+      <div  class="cardSpace" id = "playerCard1">  
+            </div>
+      <div class="cardSpace" id = "playerCard2">
+            </div>
+      <div  class="cardSpace" id = "playerCard3">
+            </div>
+      <div  class="cardSpace" id = "playerCard4"> 
+            </div>
+      <div  class="cardSpace" id = "playerCard5">
+            </div>
+    </div>
+    
+  <h4 id="playerTotal"> Score: 0 </h4> 
+
+
+
+  <h2 id = "result" class = greenfont> -+-+-+- </h2>
+
+
+  <!-- buttons to play game -->
+  <div id = "buttonArea">
+    <button id = "hitButton" onClick = "hitMe()"> HIT </button>
+    <button id = "standButton" onClick = "stand()"> STAND </button>
+    <button id = "newGameButton" onClick = "playAgain()"> Deal Again? </button>
+</div>
+
+<script type = "text/javascript" src = "./2 blackjack java.js"></script>
+
+
+</body>
+
+</html>
